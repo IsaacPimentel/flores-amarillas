@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import * as THREE from 'three';
 
+
 // --- NATIVE SVG ICONS (Ensures 100% bug-free rendering) ---
 const Volume2Icon = ({ className = "w-5 h-5" }) => (
   <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -68,7 +69,7 @@ const FLOWERS_DATA = [
     id: 1,
     title: "Mi princesa 👑",
     message: "Porque incluso los días normales se sienten especiales cuando estoy contigo.",
-    image: "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=800&q=80",
+    image: "src/assets/foto-1.jpg",
     orbitRadius: 5.5,
     speed: 0.8,
     size: 0.85,
@@ -78,7 +79,7 @@ const FLOWERS_DATA = [
     id: 2,
     title: "Tu sonrisa 🌻",
     message: "Una de esas pequeñas cosas que siempre consiguen alegrarme el día.",
-    image: "https://images.unsplash.com/photo-1541336032412-2048a678540d?auto=format&fit=crop&w=800&q=80",
+    image: "src/assets/foto-2.jpg",
     orbitRadius: 7.5,
     speed: 0.65,
     size: 0.9,
@@ -88,7 +89,7 @@ const FLOWERS_DATA = [
     id: 3,
     title: "Nuestros momentos 💛",
     message: "Cada momento contigo termina convirtiéndose en un recuerdo que quiero guardar.",
-    image: "https://images.unsplash.com/photo-1522383225653-ed111181a951?auto=format&fit=crop&w=800&q=80",
+    image: "src/assets/foto-3.jpg",
     orbitRadius: 9.5,
     speed: 0.5,
     size: 0.95,
@@ -98,7 +99,7 @@ const FLOWERS_DATA = [
     id: 4,
     title: "Tú ✨",
     message: "No necesito una razón especial para quererte. Simplemente eres tú.",
-    image: "https://images.unsplash.com/photo-1508615039623-a25605d2b022?auto=format&fit=crop&w=800&q=80",
+    image: "src/assets/foto-4.jpg",
     orbitRadius: 11.5,
     speed: 0.4,
     size: 1.0,
@@ -108,7 +109,7 @@ const FLOWERS_DATA = [
     id: 5,
     title: "Gracias ❤️",
     message: "Gracias por formar parte de mi vida y por todos los momentos que hemos compartido.",
-    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80",
+    image: "src/assets/foto-5.jpg",
     orbitRadius: 13.5,
     speed: 0.32,
     size: 1.05,
@@ -118,7 +119,7 @@ const FLOWERS_DATA = [
     id: 6,
     title: "Mi lugar favorito 🫶",
     message: "No importa dónde estemos. Si estoy contigo, siento que estoy donde quiero estar.",
-    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+    image: "src/assets/foto-6.jpg",
     orbitRadius: 15.5,
     speed: 0.25,
     size: 1.1,
@@ -128,7 +129,7 @@ const FLOWERS_DATA = [
     id: 7,
     title: "21 de septiembre 🌻",
     message: "Hoy quería regalarte flores, pero terminé creando todo un universo para ti.",
-    image: "https://images.unsplash.com/photo-1563241527-3004b7be0ffd?auto=format&fit=crop&w=800&q=80",
+    image: "src/assets/foto-7.jpg",
     orbitRadius: 17.5,
     speed: 0.2,
     size: 1.15,
@@ -138,7 +139,7 @@ const FLOWERS_DATA = [
     id: 8,
     title: "Para siempre 💛",
     message: "Este pequeño universo es para recordarte lo importante que eres para mí.",
-    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=800&q=80",
+    image: "src/assets/foto-8.jpg",
     orbitRadius: 19.5,
     speed: 0.16,
     size: 1.2,
@@ -846,7 +847,7 @@ export default function App() {
                 21 de septiembre 🌻
               </span>
               <h1 className="text-3xl sm:text-4xl font-serif text-amber-100 font-bold tracking-tight drop-shadow-md">
-                Para mi princesa 👑
+                Para mi Qlazo camila lazo👑
               </h1>
             </div>
 
@@ -1059,7 +1060,7 @@ export default function App() {
 
                 <div className="py-4 px-6 rounded-2xl bg-amber-500/10 border border-amber-500/30">
                   <p className="text-xl font-serif font-bold text-amber-300 leading-snug">
-                    Te quiero muchísimo, princesa. 💛
+                    Te quiero muchísimo, princesa te veo hoy en el mall. 💛
                   </p>
                   <p className="text-sm font-semibold text-amber-400/90 mt-2">
                     Feliz 21 de septiembre 🌻
